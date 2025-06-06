@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Health Result</title><style>body{font-family:sans-serif;margin:2em;background-color:#f4f4f9;text-align:center;}.result-box{padding:30px;margin:auto;max-width:500px;border-radius:10px;color:white;box-shadow:0 4px 6px rgba(0,0,0,0.1);}.normal{background-color:#28a745;}.anomaly{background-color:#dc3545;}a{display:inline-block;margin-top:20px;padding:10px 20px;background-color:#6c757d;color:white;text-decoration:none;border-radius:4px;}a:hover{background-color:#5a6268;}</style>
+    </head>
+    <body><h1>Analysis Result</h1><div class="result-box {{ status_class }}"><h2>Status: {{ status }}</h2><p>{{ recommendation }}</p></div><br><a href="/">Check Again</a></body>
+    </html>
